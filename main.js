@@ -143,9 +143,9 @@ function searchData(array) {
           myfilteresProduct.push(array[i]);
         }
       }
-      showData(myfilteresProduct, 0, myfilteresProduct.length);
-      showBullets(myfilteresProduct);
 
+      showData(myfilteresProduct, 0, myfilteresProduct.length);
+      bulletsCont.innerHTML = "";
       myInput.value = "";
       backButtonContainer.innerHTML = `<span class="back">Back</span>`;
       document.querySelector(".back").addEventListener("click", () => {
