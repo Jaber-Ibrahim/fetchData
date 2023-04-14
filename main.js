@@ -177,8 +177,8 @@ function showPopUp(array, end) {
            <img src="${array[i]["images"][0]}" alt="${array[i].category} photo">
            <img src="${array[i]["images"][1]}" alt="${array[i].category} photo">
            <img src="${array[i]["images"][2]}" alt="${array[i].category} photo">
+           </div>
            <span class="my-btn">Back</span>
-         </div>
        </div>
            `;
     }
